@@ -27,7 +27,7 @@ Declare either basic exitware, or with a path to more exitware:
 var exitware = require("express-exitware");
 app.use(exitware());
 //or
-app.use(exitware("./pathToMyExitwares");
+app.use(exitware(__dirname + "/./explicitPathToMyExitwares");
 ```
 
 ## Adding Exitware
@@ -56,7 +56,7 @@ module.exports = function(error){
 You attach exitware to your application as described at the top
 ```
 var exitware = require("express-exitware");
-app.use(exitware("./pathToMyExitwares");
+app.use(exitware(__dirname + "/./explicitPathToMyExitwares");
 ```
 
 Then it's bound to res, so from ANY controller when you get a bad parameter or input you can report it to the user and log it with ease:
