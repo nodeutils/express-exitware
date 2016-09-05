@@ -4,3 +4,8 @@ src
 test
 readme.md
 example
+.babelrc
+.eslineignore
+.eslintrc.js
+.gitignore
+.npmignore
