@@ -1,6 +1,6 @@
 {
   "name": "express-exitware",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Allows a standardised exit from controllers so you can standardise behaviour across your application, with access to req, res and next.",
   "main": "lib/index.js",
   "scripts": {
