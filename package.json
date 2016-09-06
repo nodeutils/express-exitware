@@ -1,6 +1,6 @@
 {
   "name": "express-exitware",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Allows a standardised exit from controllers so you can standardise behaviour across your application, with access to req, res and next.",
   "main": "lib/index.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "build": "babel src -d lib",
     "coverage": "ws -p 8888 -d coverage/lcov-report/"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodeutils/express-exitware.git"
